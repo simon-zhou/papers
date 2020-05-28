@@ -23,3 +23,5 @@ One-pass learnt index for LSM. Interesting idea to apply single-pass training wh
 ## The Buffer Tree: A New Technique for Optimal I/O Algorithms
 
 Having a buffer for each node seems promissing in the sense that lots of insert/update operations can be batched. This is not too different from B tree implementation, eg, in PG. In-memory disk pages will be flushed at a later stage. The only improvement is for tree navigation. In B tree we have to navigate to leaf node for every update/insert operations while in buffer tree these can be batched, as long as there is more than one data change are on the same page.
+
+Compared with LSM, the improvement on IO is also not that huge because LSM is already optimized for upsert/deletion.
