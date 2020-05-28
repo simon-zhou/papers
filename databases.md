@@ -19,3 +19,7 @@ I don't quite understand the epoch-based synchronization thing. The throughput s
 ## RadixSpline: A Single-Pass Learned Index
 
 One-pass learnt index for LSM. Interesting idea to apply single-pass training while merging two data files.
+
+## The Buffer Tree: A New Technique for Optimal I/O Algorithms
+
+Having a buffer for each node seems promissing in the sense that lots of insert/update operations can be batched.
