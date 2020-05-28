@@ -13,4 +13,4 @@ A few contributions:
 - Concurrent latch-free resizable cache-friendly hash index
 - HybridLog: a new hybrid log that seamlessly combines in-place updates with a traditional append-only log
 
-I don't quite understand the epoch-based synchronization thing. The throughput seems quite amazing, at 160M op/s!
+I don't quite understand the epoch-based synchronization thing. The throughput seems quite amazing, at 160M op/s! Source code is [here](https://github.com/microsoft/FASTER)
