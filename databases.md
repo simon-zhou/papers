@@ -14,3 +14,8 @@ A few contributions:
 - HybridLog: a new hybrid log that seamlessly combines in-place updates with a traditional append-only log
 
 I don't quite understand the epoch-based synchronization thing. The throughput seems quite amazing, at 160M op/s! Source code is [here](https://github.com/microsoft/FASTER)
+
+
+## RadixSpline: A Single-Pass Learned Index
+
+One-pass learnt index for LSM. Interesting idea to apply single-pass training while merging two data files.
