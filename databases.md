@@ -29,3 +29,7 @@ Compared with LSM, the improvement on IO is also not that huge because LSM is al
 ## The Bw-Tree: A B-tree for New Hardware Platforms
 
 I read a few paragraphs of this paper but couldn't get how it's different from B tree.
+
+## ARIES: A Transaction Recovery Method Supporting Fine-Granularity Locking and Partial Rollbacks Using Write-Ahead Logging
+
+I haven't read it in details but this is a must read. PG doesn't have undo log while Oracle has it.
