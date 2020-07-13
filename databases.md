@@ -41,3 +41,7 @@ This paper introduces SSI.
 ## Serializable Snapshot Isolation in PostgreSQL
 
 This paper explains how SSI is implemented in PostgreSQL and a few tradeoffs in the design. For example, to provide better performance, SSI in PostgreSQL allows for false positive in anormaly detection.
+
+## A Critique of ANSI SQL Isolation Levels
+
+Isolation levels defined SQL 92 only considered lock based implementation, even though it should be implementation neutral.
