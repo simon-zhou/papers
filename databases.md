@@ -33,3 +33,11 @@ I read a few paragraphs of this paper but couldn't get how it's different from B
 ## ARIES: A Transaction Recovery Method Supporting Fine-Granularity Locking and Partial Rollbacks Using Write-Ahead Logging
 
 I haven't read it in details but this is a must read. PG doesn't have undo log while Oracle has it.
+
+## Serializable Isolation for Snapshot Databases
+
+This paper introduces SSI.
+
+## Serializable Snapshot Isolation in PostgreSQL
+
+This paper explains how SSI is implemented in PostgreSQL and a few tradeoffs in the design. For example, to provide better performance, SSI in PostgreSQL allows for false positive in anormaly detection.
