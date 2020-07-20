@@ -45,3 +45,7 @@ This paper explains how SSI is implemented in PostgreSQL and a few tradeoffs in 
 ## A Critique of ANSI SQL Isolation Levels
 
 Isolation levels defined SQL 92 only considered lock based implementation, even though it should be implementation neutral.
+
+## Automatically Indexing Millions of Databases in Microsoft Azure SQL Database
+
+This paper is more practical compared to The Learnt Index from Google.
